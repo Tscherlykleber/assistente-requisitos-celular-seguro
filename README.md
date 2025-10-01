@@ -113,3 +113,9 @@ if uploaded_file:
             st.download_button("Baixar Relatório PDF", f, file_name="relatorio_requisitos.pdf")
 else:
     st.info("Envie um arquivo CSV para iniciar.")
+# MODELO DE REQUISITOS                                                                                                        ID,Descrição,Tipo,Prioridade,Complexidade,Esforco (horas)
+1,O sistema deve permitir login de usuários,Funcional,Alta,3,30
+2,A interface deve ser responsiva em dispositivos móveis,Não Funcional,Média,2,20
+3,O sistema deve armazenar dados em banco seguro,Funcional,Alta,4,40
+4,Deve haver documentação técnica disponível,Não Funcional,Baixa,1,10
+5,O tempo de resposta deve ser inferior a 2 segundos,Não Funcional,Alta,3,25
